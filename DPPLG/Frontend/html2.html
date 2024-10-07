@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir</title>
+    <link rel="stylesheet" href="css2.css">
+</head>
+    <body>      
+        <h1>FORMULIR</h1>
+    
+        <img src="Turu.jpg" alt="Tidur Nyenyak"><hr>
+    
+        <form action="">
+            <label for="Nama">Nama:
+                <input type="text" id="Nama" name="Nama" placeholder="Full Name">
+            </label><br>
+
+            <label for="Kota Asal">Kota Asal:
+                <input type="text" id="Kota Asal" name="Kota Asal" placeholder="Kota Asal" list="Kota-Asal">
+            
+                <datalist id="Kota-Asal">
+                    <option value="Semarang">Semarang</option>
+                    <option value="Yogyakarta">Yogyakarta</option>
+                </datalist>
+            </label><br>
+
+            <label for="Tanggal Lahir">Tanggal Lahir:
+                <input type="date" id="Tanggal Lahir" name="Tanggal Lahir">
+            </label><br>
+
+            <label for="Gender">Gender:
+                <input type="radio" id="Gender" name="Gender">Pria</input>
+                <input type="radio" id="Gender" name="Gender">Wanita</input>
+            </label><br>
+
+            <label for="Agama">Agama:
+                <select id="Agama" name="Agama">
+                  <option value="islam">Islam</option>
+                  <option value="kristen">Kristen</option>
+                  <option value="katolik">Katolik</option>
+                  <option value="hindu">Hindu</option>
+                  <option value="buddha">Buddha</option>
+                  <option value="konghucu">Konghucu</option>
+                </select>
+            </label><br>
+
+            <label for="alamat">Alamat Lengkap:
+                <textarea id="alamat" name="alamat" rows="4" cols="50" placeholder="Masukkan Alamat Lengkap" required></textarea>
+            </label><br>
+            
+            <label for="Hobi">Hobi
+                <select id="Hobi" name="Hobi">
+                  <option value="Membaca">Membaca</option>
+                  <option value="Menulis">Menulis</option>
+                  <option value="Mendengarkan-Musik">Mendengarkan Musik</option>
+                  <option value="Menggambar">Menggambar</option>
+                  <option value="Memasak">Memasak</option>
+                  <option value="Berkebun">Berkebun</option>
+                  <option value="Coding">Coding</option>
+                </select>
+            </label><br>
+        </form>
+    </body>
+</html>
