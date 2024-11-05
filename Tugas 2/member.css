@@ -1,0 +1,76 @@
+body {
+    background: url('Kota.jpg') no-repeat fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #696969;
+}
+
+.form-container {
+    background-color: rgba(46, 214, 233, 0.422);
+    border: 2px dashed #696969;
+    padding: 20px;
+    width: 90%;
+    max-width: 90%;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.form-container h2 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.form-container hr {
+    border: 2px dashed #696969;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.form-group-inline {
+    display: flex;
+    align-items: center;
+}
+.form-group-inline label {
+    margin-right: 10px;
+    font-weight: normal;
+}
+
+.form-actions {
+    text-align: center;
+}
+.form-actions input[type="submit"],
+.form-actions input[type="reset"] {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: #696969;
+    cursor: pointer;
+    margin: 5px;
+}
+.form-actions input[type="submit"]:hover,
+.form-actions input[type="reset"]:hover {
+    background-color: #bbb;
+}
