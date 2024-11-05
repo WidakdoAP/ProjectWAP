@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Nota Pembelian</title>
+    <link rel="stylesheet" href="nota.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulir Nota Pembelian</h2><hr>
+        
+        <div class="form-group">
+            <label for="nama">Nama Pembeli</label>
+            <input type="text" id="nama" name="nama" placeholder="ketikan nama kamu">
+        </div>
+
+        <div class="form-group">
+            <label for="alamat">Alamat Pembeli</label>
+            <input type="text" id="alamat" name="alamat" placeholder="ketikan alamatmu">
+        </div>
+
+        <div class="form-group">
+            <label for="kode_pos">Kode Pos</label>
+            <input type="text" id="kode_pos" name="kode_pos" placeholder="ketikan dan/atau pilih kode pos alamatmu">
+        </div>
+
+        <div class="form-group">
+            <label for="tanggal_beli">Tanggal Beli</label>
+            <input type="date" id="tanggal_beli" name="tanggal_beli">
+        </div>
+
+        <div class="form-group">
+            <label>Pembayaran</label>
+            <div class="radio-group">
+                <label><input type="radio" name="pembayaran" value="lunas"> Lunas</label>
+                <label><input type="radio" name="pembayaran" value="belum_bayar"> Belum Bayar</label>
+                <label><input type="radio" name="pembayaran" value="dp"> DP</label>
+                <input type="text" placeholder="ketikan angka uang DP">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="jenis_pembayaran">Jenis Pembayaran</label>
+            <select id="jenis_pembayaran" name="jenis_pembayaran">
+                <option>Pilih</option>
+                <option>Transfer Bank</option>
+                <option>Kartu Kredit</option>
+                <option>Cash</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Menu</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="menu" value="mie_goreng"> Mie goreng</label>
+                <input type="text" placeholder="ketikan angka pesanan">
+            </div>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="menu" value="nasi_goreng"> Nasi goreng</label>
+                <input type="text" placeholder="ketikan angka pesanan">
+            </div>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="menu" value="jeruk"> Jeruk</label>
+                <input type="text" placeholder="ketikan angka pesanan">
+            </div>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="menu" value="teh"> Teh</label>
+                <input type="text" placeholder="ketikan angka pesanan">
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button type="reset">Clear</button>
+            <button type="submit">Send</button>
+        </div>
+    </div>
+</body>
+</html>
