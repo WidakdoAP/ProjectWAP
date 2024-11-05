@@ -1,0 +1,52 @@
+body {
+    background: url('Kota.jpg') no-repeat fixed; 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    color: #696969;
+}
+
+.container {
+    margin: auto;
+    margin-top: 2rem;
+    width: 90%;
+    background-color: rgba(46, 214, 233, 0.422);
+    filter: opacity(90%);
+    border: 2px dashed #696969;
+    border-radius: 10px;
+}
+
+.container h2 {
+    text-align: center;
+    color: #696969;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 90%;
+    color: #696969;
+    border: 2px dashed #696969;
+    text-align: center;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+td {
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgba(46, 214, 233, 0.422);
+    border: 1px solid white;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid white;
+}
+
+th.highlight {
+    background-color: rgba(255, 182, 193, 0.8);
+}
+
+th:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
